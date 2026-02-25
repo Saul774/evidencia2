@@ -8,12 +8,12 @@ void main() {
   String apellido = stdin.readLineSync()!;
 
   stdout.write('Ingrese edad hermano mayor : ');
-  int HM = int.parse(stdin.readLineSync()!);
+  int EHM = int.parse(stdin.readLineSync()!);
 
   stdout.write('Ingrese edad hermano menor : ');
-  int hm = int.parse(stdin.readLineSync()!);
+  int ehm = int.parse(stdin.readLineSync()!);
 
-  int diferencia = HM - hm;
+  int diferencia = EHM - ehm;
 
   print(
       'Nombre completo es: $nombre $apellido, edad del hermano mayor es: $HM y la del hermano menor es: $hm, y su diferencia de edad es de $diferencia años');
